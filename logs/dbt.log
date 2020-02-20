@@ -74,3 +74,10 @@
 2020-02-20 23:04:19,616449 (Thread-8): handling status request
 2020-02-20 23:04:19,618914 (Thread-8): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7fc00ade-817b-482f-94b3-69c8d09b3820', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea16e0b00>]}
 2020-02-20 23:04:19,647177 (Thread-8): sending response (<Response 444 bytes [200 OK]>) to 10.0.20.250
+2020-02-20 23:04:23,547865 (Thread-9): Got an acceptable cached parse result
+2020-02-20 23:04:23,891257 (Thread-10): handling status request
+2020-02-20 23:04:23,891992 (Thread-10): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7fc00ade-817b-482f-94b3-69c8d09b3820', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea1930c18>]}
+2020-02-20 23:04:23,928977 (Thread-10): sending response (<Response 444 bytes [200 OK]>) to 10.0.1.98
+2020-02-20 23:04:31,220236 (Thread-11): handling status request
+2020-02-20 23:04:31,222335 (Thread-11): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7fc00ade-817b-482f-94b3-69c8d09b3820', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea2767390>]}
+2020-02-20 23:04:31,249585 (Thread-11): sending response (<Response 444 bytes [200 OK]>) to 10.0.24.108
