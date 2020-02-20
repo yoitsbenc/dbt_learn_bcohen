@@ -1,0 +1,48 @@
+2020-02-20 23:01:03,733949 (MainThread): Running with dbt=0.15.2
+2020-02-20 23:01:03,907339 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.rpc.server.RPCServerTask'>, debug=False, exclude=None, host='0.0.0.0', log_cache_events=False, log_format='default', models=None, partial_parse=True, port=8580, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='rpc', write_json=True)
+2020-02-20 23:01:03,924800 (MainThread): Tracking: tracking
+2020-02-20 23:01:03,924987 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea2744dd8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea27440f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea2744b38>]}
+2020-02-20 23:01:03,929094 (Thread-1): Parsing macros/core.sql
+2020-02-20 23:01:03,932338 (Thread-1): Parsing macros/adapters/common.sql
+2020-02-20 23:01:03,953425 (Thread-1): Parsing macros/schema_tests/unique.sql
+2020-02-20 23:01:03,954638 (Thread-1): Parsing macros/schema_tests/accepted_values.sql
+2020-02-20 23:01:03,956209 (Thread-1): Parsing macros/schema_tests/not_null.sql
+2020-02-20 23:01:03,957025 (Thread-1): Parsing macros/schema_tests/relationships.sql
+2020-02-20 23:01:03,957998 (Thread-1): Parsing macros/materializations/helpers.sql
+2020-02-20 23:01:03,963004 (Thread-1): Parsing macros/materializations/common/merge.sql
+2020-02-20 23:01:03,968421 (Thread-1): Parsing macros/materializations/table/table.sql
+2020-02-20 23:01:03,972933 (Thread-1): Parsing macros/materializations/incremental/incremental.sql
+2020-02-20 23:01:03,977763 (Thread-1): Parsing macros/materializations/incremental/helpers.sql
+2020-02-20 23:01:03,979335 (Thread-1): Parsing macros/materializations/seed/seed.sql
+2020-02-20 23:01:03,995934 (Thread-1): Parsing macros/materializations/snapshot/strategies.sql
+2020-02-20 23:01:04,7866 (Thread-1): Parsing macros/materializations/snapshot/snapshot.sql
+2020-02-20 23:01:04,24784 (Thread-1): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-02-20 23:01:04,29299 (Thread-1): Parsing macros/materializations/view/view.sql
+2020-02-20 23:01:04,33961 (Thread-1): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-02-20 23:01:04,37783 (Thread-1): Parsing macros/etc/get_custom_schema.sql
+2020-02-20 23:01:04,39829 (Thread-1): Parsing macros/etc/is_incremental.sql
+2020-02-20 23:01:04,41355 (Thread-1): Parsing macros/etc/datetime.sql
+2020-02-20 23:01:04,47771 (Thread-1): Parsing macros/etc/get_relation_comment.sql
+2020-02-20 23:01:04,49530 (Thread-1): Parsing macros/etc/query.sql
+2020-02-20 23:01:04,50823 (Thread-1): Parsing macros/etc/get_custom_alias.sql
+2020-02-20 23:01:04,52939 (Thread-1): Parsing macros/catalog.sql
+2020-02-20 23:01:04,58836 (Thread-1): Parsing macros/adapters.sql
+2020-02-20 23:01:04,73834 (Thread-1): Parsing macros/materializations/view.sql
+2020-02-20 23:01:04,90175 (Thread-1): Parsing macros/materializations/merge.sql
+2020-02-20 23:01:04,91958 (Thread-1): Parsing macros/materializations/incremental.sql
+2020-02-20 23:01:04,99094 (Thread-1): Parsing macros/materializations/table.sql
+2020-02-20 23:01:04,153147 (Thread-1): Acquiring new snowflake connection "model.my_new_project.my_second_dbt_model".
+2020-02-20 23:01:04,153493 (Thread-1): Opening a new connection, currently in state init
+2020-02-20 23:01:04,202136 (Thread-1): Acquiring new snowflake connection "model.my_new_project.my_first_dbt_model".
+2020-02-20 23:01:04,202347 (Thread-1): Opening a new connection, currently in state init
+2020-02-20 23:01:04,220339 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=13
+2020-02-20 23:01:04,221247 (MainThread): Supported methods: ['cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'kill', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'status', 'test']
+2020-02-20 23:01:04,221863 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2020-02-20 23:01:04,244036 (Thread-1): Acquiring new snowflake connection "test.my_new_project.unique_my_first_dbt_model_id".
+2020-02-20 23:01:04,244226 (Thread-1): Opening a new connection, currently in state init
+2020-02-20 23:01:04,257481 (Thread-1): Acquiring new snowflake connection "test.my_new_project.not_null_my_first_dbt_model_id".
+2020-02-20 23:01:04,257614 (Thread-1): Opening a new connection, currently in state init
+2020-02-20 23:01:04,268093 (Thread-1): Acquiring new snowflake connection "test.my_new_project.unique_my_second_dbt_model_id".
+2020-02-20 23:01:04,268225 (Thread-1): Opening a new connection, currently in state init
+2020-02-20 23:01:04,275956 (Thread-1): Acquiring new snowflake connection "test.my_new_project.not_null_my_second_dbt_model_id".
+2020-02-20 23:01:04,276080 (Thread-1): Opening a new connection, currently in state init
