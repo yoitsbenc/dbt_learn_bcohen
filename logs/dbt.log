@@ -46,3 +46,31 @@
 2020-02-20 23:01:04,268225 (Thread-1): Opening a new connection, currently in state init
 2020-02-20 23:01:04,275956 (Thread-1): Acquiring new snowflake connection "test.my_new_project.not_null_my_second_dbt_model_id".
 2020-02-20 23:01:04,276080 (Thread-1): Opening a new connection, currently in state init
+2020-02-20 23:03:28,55380 (Thread-2): Got an acceptable cached parse result
+2020-02-20 23:03:37,958787 (Thread-3): handling ps request
+2020-02-20 23:03:37,961000 (Thread-3): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7fc00ade-817b-482f-94b3-69c8d09b3820', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea195f438>]}
+2020-02-20 23:03:37,997034 (Thread-3): sending response (<Response 103 bytes [200 OK]>) to 10.0.24.108
+2020-02-20 23:03:38,646897 (Thread-4): handling status request
+2020-02-20 23:03:38,647625 (Thread-4): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7fc00ade-817b-482f-94b3-69c8d09b3820', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea195f438>]}
+2020-02-20 23:03:38,682627 (Thread-4): sending response (<Response 444 bytes [200 OK]>) to 10.0.13.10
+2020-02-20 23:03:42,942521 (Thread-5): handling ps request
+2020-02-20 23:03:42,945011 (Thread-5): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7fc00ade-817b-482f-94b3-69c8d09b3820', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea1930f98>]}
+2020-02-20 23:03:42,974052 (Thread-5): sending response (<Response 100 bytes [200 OK]>) to 10.0.23.84
+2020-02-20 23:03:42,976486 (Thread-6): handling compile_sql request
+2020-02-20 23:03:42,977053 (Thread-6): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7fc00ade-817b-482f-94b3-69c8d09b3820', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea19b3a58>]}
+2020-02-20 23:03:43,6021 (Thread-6): Connection 'test.my_new_project.not_null_my_second_dbt_model_id' was properly closed.
+2020-02-20 23:03:43,13796 (Thread-6): sending response (<Response 133 bytes [200 OK]>) to 10.0.20.250
+2020-02-20 23:03:43,28176 (Thread-6): Acquiring new snowflake connection "rpc.my_new_project.request".
+2020-02-20 23:03:43,28864 (Thread-6): Opening a new connection, currently in state init
+2020-02-20 23:03:43,45021 (Thread-6): Found 2 models, 4 tests, 0 snapshots, 0 analyses, 127 macros, 0 operations, 0 seed files, 0 sources
+2020-02-20 23:03:43,46487 (Thread-7): Acquiring new snowflake connection "rpc.my_new_project.request".
+2020-02-20 23:03:43,46608 (Thread-7): Opening a new connection, currently in state init
+2020-02-20 23:03:43,46724 (Thread-7): Compiling rpc.my_new_project.request
+2020-02-20 23:03:43,65599 (Thread-7): finished collecting timing info
+2020-02-20 23:03:43,66144 (Thread-7): finished collecting timing info
+2020-02-20 23:03:43,357724 (Thread-7): handling poll request
+2020-02-20 23:03:43,358446 (Thread-7): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7fc00ade-817b-482f-94b3-69c8d09b3820', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea19b3a58>]}
+2020-02-20 23:03:43,388895 (Thread-7): sending response (<Response 5895 bytes [200 OK]>) to 10.0.1.98
+2020-02-20 23:04:19,616449 (Thread-8): handling status request
+2020-02-20 23:04:19,618914 (Thread-8): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7fc00ade-817b-482f-94b3-69c8d09b3820', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea16e0b00>]}
+2020-02-20 23:04:19,647177 (Thread-8): sending response (<Response 444 bytes [200 OK]>) to 10.0.20.250
